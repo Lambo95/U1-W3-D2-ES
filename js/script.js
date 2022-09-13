@@ -29,7 +29,7 @@ function myAge() {
 }
 
 function ball() {
-  let randomNumber = Math.floor(Math.random() * 7);
+  let randomNumber = Math.floor(Math.random() * 9);
   console.log(randomNumber);
   const frseDefault = "Premi la palla";
   let zero = 0;
@@ -44,31 +44,31 @@ function ball() {
 
   switch (randomNumber) {
     case 0:
-      document.getElementById("visualizza-frase").innerHTML = "Numero estratto: " + zero + frseDefault;
+      document.getElementById("visualizza-frase").innerHTML = "Numero estratto: " + zero + "<br>" + frseDefault;
       break;
     case 1:
-      document.getElementById("visualizza-frase").innerHTML = "Numero estratto: " + uno + "È certo";
+      document.getElementById("visualizza-frase").innerHTML = "Numero estratto: " + uno + "<br> È certo";
       break;
     case 2:
-      document.getElementById("visualizza-frase").innerHTML = "Numero estratto: " + due + "È decisamente così";
+      document.getElementById("visualizza-frase").innerHTML = "Numero estratto: " + due + "<br> È decisamente così";
       break;
     case 3:
-      document.getElementById("visualizza-frase").innerHTML = "Numero estratto: " + tre + "Domanda confusa! Riprova";
+      document.getElementById("visualizza-frase").innerHTML = "Numero estratto: " + tre + "<br> Domanda confusa! Riprova";
       break;
     case 4:
-      document.getElementById("visualizza-frase").innerHTML = "Numero estratto: " + quattro + "Non posso predire ora";
+      document.getElementById("visualizza-frase").innerHTML = "Numero estratto: " + quattro + "<br> Non posso predire ora";
       break;
     case 5:
-      document.getElementById("visualizza-frase").innerHTML = "Numero estratto: " + cinque + "Non ci contare";
+      document.getElementById("visualizza-frase").innerHTML = "Numero estratto: " + cinque + "<br> Non ci contare";
       break;
     case 6:
-      document.getElementById("visualizza-frase").innerHTML = "Numero estratto: " + sei + "Le mie fonti dicono di no";
+      document.getElementById("visualizza-frase").innerHTML = "Numero estratto: " + sei + "<br> Le mie fonti dicono di no";
       break;
     case 7:
-      document.getElementById("visualizza-frase").innerHTML = "Numero estratto: " + sette + "Prospettive non così buone";
+      document.getElementById("visualizza-frase").innerHTML = "Numero estratto: " + sette + "<br> Prospettive non così buone";
       break;
     case 8:
-      document.getElementById("visualizza-frase").innerHTML = "Numero estratto: " + otto + "I segnali indicano sì";
+      document.getElementById("visualizza-frase").innerHTML = "Numero estratto: " + otto + "<br> I segnali indicano sì";
       break;
   }
 }
